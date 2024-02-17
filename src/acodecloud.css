@@ -1,0 +1,122 @@
+
+
+li {
+    display: block;
+}
+
+.cloudhead {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  border-top: 2px solid #eee;  
+  border-bottom: 1.5px solid #eee;  
+  margin-bottom: 2%;
+}
+
+.refresh-acodecloud {
+  display: flex;
+  align-items: center;
+}
+
+.reload-symbol {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #007bff; /* Adjust the background color as needed */
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 5px; /* Add margin for spacing */
+}
+.reload-symbol:active {
+    background-color: #8e7efd;
+}
+.addfile {
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 5px;
+    font-weight: bold;
+    margin: 2%;
+    border-radius: 6px;
+}
+.addfile:active {
+    color: #8e7efd;
+    border-color: #8e7efd;
+}
+.cloudbody {
+    height: 1750px;
+    overflow-y: scroll;
+}
+.cloudbody-padder {
+    padding-bottom: 1500px; 
+}
+.not-connected {
+    margin: 4%;
+    margin-top: 6%;
+    margin-left: 7px;
+}
+.connect-button { /* Get Started button */
+    padding: 4px 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-top: 5%;
+}
+.about {
+    margin-top: 3%;
+    line-height: 1.8;
+}
+.batch {
+    border-bottom: 0.5px solid #d9d9da;
+    padding: 6px;
+    width: 100%;
+    margin: 0;
+}
+
+.batch.checked {
+    background-color: #f4fef1; /* Change background color for checked items */
+}
+
+#fileList {
+    list-style-type: none;
+    padding: 0; /* Remove default padding for better styling */
+}
+
+#fileNameSpan {
+    max-width: 90%; /* Adjusted to occupy 80% of the available width */
+    overflow: hidden;
+    white-space: nowrap;
+    /*text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
+    display: inline-block; /* Allow ellipsis to work */
+}
+.action {
+    
+}
+.batch button {
+    padding: 1px 3px;
+    border-radius: 3px;
+    margin: 0 4px;
+}
+
+.action button.delete {
+    background-color: #fe7878;
+    color: white; 
+}
+
+.action button.download {
+    background-color: #bbd8f8;
+    display: none;
+}
+.action button.copy {
+    background-color: #c1feee;
+}
+.cloudinfo.nfiles {
+    font-weight: bold;
+}
+.no-files {
+    padding: 12px;
+    text-align: center;
+}
