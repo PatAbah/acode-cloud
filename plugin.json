@@ -1,0 +1,20 @@
+{
+  "id": "acode.plugin.cloud",
+  "name": "Acode Cloud",
+  "aka": "AcodeCloud", 
+  "main": "dist/main.js",
+  "version": "24.2.2",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [
+      "sideicon.svg", 
+      "src/cloudsync.css"
+  ],
+  "minVersionCode" : 290,
+  "price": 0,
+  "author": {
+    "name": "Pat Abah",
+    "email": "abahpatoski@gmail.com",
+    "github": "https://github.com/PatAbah"
+  }
+}
