@@ -5,17 +5,7 @@ Futures releases would enable you backup your Acode plugins locally or to the cl
 ## Update:
 Fixed https error and upgraded storage server. Minor bugs fixed as well. 
 
-> Please note that Acode Cloud is currently designed for text/code files. Future updates will see full support for other kinds of files. 
-
-
-### Why use Acode Cloud
-
-With Acode Cloud, you don't need to worry about losing that script, code, or note you think you'll need in the future.
-
-
-### Pro version
-If you like this plugin, you may also enjoy "Acode Cloud Pro."
-
+> Please note that Acode Cloud is currently designed for text/code files. Future updates will see full support for other kinds of files.  
 
 ### Is signing up required
 
